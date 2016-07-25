@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Recorriendo arreglo parra llenar el mismo</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      //var NumDep;
+      //NumDep=prompt("Digita la cantidad de deportes que practicas", "");
+      //NumDep=parseInt(NumDep);
+      //OPTIMIZANDO CÓDIGO:
+      var NumDep=parseInt(prompt("Digita la cantidad de deportes que practicas", ""));
+      console.log(NumDep);
+      var MisDep= new Array (NumDep);     //cantidad de elementos que contendra
+      console.log(MisDep);
+      //Recorrerlo
+      for(var u=0;u<MisDep.length;u++)
+      {
+        MisDep[u]=prompt("Digita el deporte que practicas", " ");
+        document.write("Los deportes que ingreso el usuario fueron:"+MisDep+"</br>");
+      }
+    </script>
+  </body>
+</html>
